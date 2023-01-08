@@ -5,7 +5,7 @@ This repository contains metadata dictionaries, class models and their instances
 computations, datasets, and software described in the Multi-Scale Integrated Cell
 (MuSIC) pipeline which integrates protein fluorescent images and protein
 biophysical association data to create a unified hierarchical map of human cell
-architecture. A detailed provenance map [here](./Music_Provenance_Map.png) shows each component required to run the pipeline. In our current release, only the components within the rectangle titled `Ideker Lab/MuSIC` have been addressed by the data dictionary, metadata model and instances.   
+architecture. A detailed provenance map [here](./CM4AI/MuSIC_Provenance_Map.png) shows each component required to run the pipeline. In our current release, only the components within the rectangle titled `Ideker Lab/MuSIC` have been addressed by the data dictionary, metadata model and instances.   
 
 More information on the MuSIC pipeline:
 
@@ -25,9 +25,9 @@ For more information on LinkML:
 ## Data dictionary
 Directory `data-dictionary` contains three data dictionary documents which are still at their infancy.
 
-* [computation.md](./data-dictionary/computation.md)
-* [dataset.md](./data-dictionary/dataset.md)
-* [software.md](./data-dictionary/software.md)
+* [computation.md](./CM4AI/data-dictionary/computation.md)
+* [dataset.md](./CM4AI/data-dictionary/dataset.md)
+* [software.md](./CM4AI/data-dictionary/software.md)
 
 The current release contains metadata about objects using a select set of variables, their data types, preferred mapping using URIs/CURIEs, and allowed values based on the current state of the MuSIC pipeline. More detailed version of the data dictionary is planned for release in future. For example, the dictionary for Dataset (`dataset.md`) introduces a slot (aka attribute/property) called `schema` which refers to the schema of the content. As different formats of the content demand different schema representation, more work in this direction is required.
 
