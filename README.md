@@ -5,7 +5,7 @@ This repository contains metadata dictionaries, class models and their instances
 computations, datasets, and software described in the Multi-Scale Integrated Cell
 (MuSIC) pipeline which integrates protein fluorescent images and protein
 biophysical association data to create a unified hierarchical map of human cell
-architecture. A detailed provenance map [here](./CM4AI/MuSIC_Provenance_Map.png) shows each component required to run the pipeline. In our current release, only the components within the rectangle titled `Ideker Lab/MuSIC` have been addressed by the data dictionary, metadata model and instances.   
+architecture. A detailed provenance map [here](./CM4AI/CM4AI%20Data%20Dictionary%20-%20MuSIC%201.0%20Provenance%20Model.png) shows each component required to run the pipeline. In our current release, only the components within the rectangle titled `Ideker Lab/MuSIC` have been addressed by the data dictionary, metadata model and instances.   
 
 More information on the MuSIC pipeline:
 
