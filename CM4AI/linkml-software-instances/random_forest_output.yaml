@@ -1,0 +1,17 @@
+id: ARK:run_random_forest.1/a3a67d12-4ac4-4411-9599-6d3b7c931dbc.py
+name: random forest output
+type: evi:Software
+author: Qin, Y.
+dateModified: 2021-04-27
+version: 1.0
+description: >- # multi-line content
+  script written in python to generate random forest output
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: py
+usedByComputation:
+  - ARK:average_predicted_protein_proximities.1/c295abcd-8ad8-44ff-95e3-e5e65f1667da
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/random_forest_output.py

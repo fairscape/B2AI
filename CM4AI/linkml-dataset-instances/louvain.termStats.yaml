@@ -1,0 +1,22 @@
+id: ARK:louvain.termStats.1/eb628bcd-904e-4bf9-b52a-f9575b5eca47.ddot
+name: Specific protein-system assignments
+type: schema:Dataset
+author: Qin et al.
+date_published: April 25, 2021
+version: 1.0
+description: >- # multi-line content
+  File showing the putative protein-system assignments as determined by
+  community_detection.py
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: ddot
+schema: >-
+  TBD
+generatedBy:
+  - community detection community_detection.py
+usedBy:
+  - TBD
+contentUrl: TBD

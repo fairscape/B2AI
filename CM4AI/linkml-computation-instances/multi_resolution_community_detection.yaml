@@ -1,0 +1,15 @@
+id: ARK:multi_resolution_community_detection.1/6343b6c3-4653-4b69-af6a-4f588721e371
+name: multi-resolution community detection
+type: evi:Computation
+runBy: Qin, Y.
+dateCreated: 2021-05-23
+description: >- # multi-line content
+  Run CLiXO community detection at various stringencies to predict communities.
+  See diagram at (https://bit.ly/3ueaBMg).
+usedSoftware:
+  - community detection (https://github.com/idekerlab/MuSIC/blob/master/community_detection.py )
+usedDataset:
+  - averages of predicted protein proximities (https://github.com/idekerlab/MuSIC/blob/master/Examples/MuSIC_predicted_proximity.txt)
+generated:
+  - System hierarchical relationships (/Examples/output/test.louvain.ddot)
+  - Specific protein-system assignments (/Examples/output/louvain.termStats)

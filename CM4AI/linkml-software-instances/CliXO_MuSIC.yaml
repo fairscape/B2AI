@@ -1,0 +1,17 @@
+id: ARK:CliXO_MuSIC.1/63c64ce4-949d-41ba-a085-2d07857ba4a1.zip
+name: community detection
+type: evi:Software
+zipthor: Qin, Y.
+dateModified: 2022-04-24
+version: 1.0
+description: >- # multi-line content
+  CLiXO software suite
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: zip
+usedByComputation:
+  - ARK:CLiXO.1/ab67992f-618d-4157-9331-4dd09120005a
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/CliXO_MuSIC.zip

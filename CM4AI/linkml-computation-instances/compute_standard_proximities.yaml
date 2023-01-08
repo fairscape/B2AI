@@ -1,0 +1,19 @@
+id: ARK:compute_standard_proximities.1/f9aa5f3f-665a-4ab9-8879-8d0d52f05265
+name: compute standard proximities
+type: evi:Computation
+runBy: Qin, Y.
+dateCreated: 2021-05-23
+description: >- # multi-line content
+  Calculate standard proximities for protein pairs based on number of discrete
+  proteins in smallest GO cellular compartment (=C) and formula derived from
+  regression on a “gold-standard” association of ten compartment diameters (=D)
+  with C. See (https://github.com/idekerlab/MuSIC/blob/master/Figures/GitHub_calibration.png)
+  for the calibration function. Compartment diameters input from calibration
+  file (calibration.txt).
+  This is STEP 1 in the Step By Step Guide (https://github.com/idekerlab/MuSIC/wiki/A-Step-By-Step-Guide-to-Building-a-MuSIC-Map)
+usedSoftware:
+  - calibrate_pariwise_distance.py (https://github.com/idekerlab/MuSIC/blob/master/calibrate_pairwise_distance.py)
+usedDataset:
+  - calibrated protein-protein proximity training labels (https://github.com/idekerlab/MuSIC/blob/master/data/calibration.txt)
+generated:
+  - calibrated protein-protein proximity training labels (test.calibrated_distance.csv, URL not given)

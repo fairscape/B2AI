@@ -1,0 +1,20 @@
+
+id: ARK:CLiXO.1/ab67992f-618d-4157-9331-4dd09120005a
+name: CLiXO
+type: evi:Computation
+runBy: Qin, Y.
+dateCreated: 2021-05-23
+description: >- # multi-line content
+  Run CLiXO community detection at single stringency to predict a set of communities.
+associated_publication:
+  - Singhal A, et al. Multiscale community detection in Cytoscape. PLoS Comput Biol. 2020 Oct 23;16(10):e1008239. https://doi.org/10.1371/journal.pcbi.1008239.
+  - M. Kramer et al. Inferring gene ontologies from pairwise similarity data. Bioinformatics 30; i34-i42 (2014). https://doi.org/10.1093/bioinformatics/btu282.
+usedSoftware:
+  - CLiXO (https://github.com/idekerlab/MuSIC/blob/master/CliXO_MuSIC.zip)
+calledBy:
+  - multi-resolution community detection
+usedDataset:
+  - averages of predicted protein proximities (https://github.com/idekerlab/MuSIC/blob/master/Examples/MuSIC_predicted_proximity.txt)
+generated:
+  - System hierarchical relationships (/Examples/output/test.louvain.ddot)
+  - Specific protein-system assignments (/Examples/output/louvain.termStats

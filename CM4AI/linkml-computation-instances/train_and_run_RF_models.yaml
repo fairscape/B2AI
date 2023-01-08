@@ -1,0 +1,35 @@
+id: ARK:train_and_run_RF_models.1/9b6f34ff-7eb8-4278-981f-ec2cd79f8aac
+name: train and run RF models
+type: evi:Computation
+runBy: Qin, Y.
+dateCreated: 2021-05-23
+description: >- # multi-line content
+  Create labeled random forest regressor training and test sets.
+usedSoftware:
+  - https://github.com/idekerlab/MuSIC/blob/master/run_random_forest.py
+usedDataset:
+  - IF & AMPS training sets ()
+  - IF & APMS test sets ()  
+generated:
+  - RF models (Examples/output/test_trained_models/*)
+  - >-
+    model-predicted protein proximities
+    Fold 1 proximities:
+      IF_emd_1_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_1.pkl
+  - IF_emd_2_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_1.pkl
+  - >-
+    Fold 1 proximities:
+      IF_emd_1_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_2.pkl
+  - IF_emd_2_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_2.pkl
+  - >-
+    Fold 1 proximities:
+      IF_emd_1_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_3.pkl
+  - IF_emd_2_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_3.pkl
+  - >-
+    Fold 1 proximities:
+      IF_emd_1_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_4.pkl
+  - IF_emd_2_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_4.pkl
+  - >-
+    Fold 1 proximities:
+      IF_emd_1_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_5.pkl
+  - IF_emd_2_APMS_emd_1.RF_maxDep_30_nEst_1000.fold_5.pkl

@@ -1,0 +1,21 @@
+id: ARK:GO_unannotated_proteins.1/46b1f64e-79be-4a7c-82cd-946550357d94.txt
+name: GO Unannotated Proteins
+type: schema:Dataset
+author: Qin et al.
+date_published: 2021-04-25
+version: 1.0
+description: >- # multi-line content
+  Proteins without annotation in GO.
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: not given, inferred TSV
+schema: >-
+  TBD
+generatedBy:
+  - TBD
+usedBy:
+  - create training & test sets  random_forest_samples.py
+contentUrl: TBD

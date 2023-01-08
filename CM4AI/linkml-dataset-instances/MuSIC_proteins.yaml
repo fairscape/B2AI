@@ -1,0 +1,25 @@
+id: ARK:MuSIC_proteins.1/2df55013-7512-475f-adf3-819e864d1bfd.txt
+name: List of MUSIC proteins
+type: evi:Dataset
+author: Qin et al.
+date_published: 2021-05-23
+version: 1.0
+description: >- # multi-line content
+  Proteins with data from BioPlex 2.0 and Human Protein Atals for
+  HEK 293 cells in both databases. This is the set of proteins analyzed in
+  MuSIC 1.0, consisting of 661 proteins. All proteins are indicated by their
+  corresponding human gene names.
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: TSV
+schema: protein string
+derivedFrom:
+  - BioPlex 2.0
+  - Human Protein Atlas
+usedBy:
+  - compute standard proximities (calibrate_pairwise_distance.py)
+  - create training & test sets  random_forest_samples.py
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/Examples/MuSIC_proteins.txt

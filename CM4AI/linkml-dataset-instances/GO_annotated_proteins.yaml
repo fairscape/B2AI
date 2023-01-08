@@ -1,0 +1,22 @@
+id: ARK:GO_annotated_proteins.1/8b581984-1b55-4c1e-8b1f-69048c3c02e6.txt
+name: Calibration file
+type: schema:Dataset
+author: Qin et al.
+date_published: 2021-04-25
+version: 1.0
+description: >- # multi-line content
+  List of 18395 gene symbols representing proteins with annotation in GO.
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: TSV
+schema: >-
+  protein str
+derivedFrom:
+  - not specified, a reasonable guess would be UniProt.
+usedBy:
+  - compute standard proximities calibrate_pairwise_distance.py
+  - create training & test sets  random_forest_samples.py
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/data/GO_annotated_proteins.txt

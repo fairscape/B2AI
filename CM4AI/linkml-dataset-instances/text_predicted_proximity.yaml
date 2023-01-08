@@ -1,0 +1,22 @@
+id: ARK:text_predicted_proximity.1/6c97333e-b525-475f-9d20-bcb885cc280c.txt
+name: averages of predicted protein proximities
+type: schema:Dataset
+author: Qin et al.
+date_published: 2021-04-23
+version: 1.0
+description: >- # multi-line content
+  Dataset of averaged with RF-predicted protein-protein proximities computed as
+  average of model-predicted proximities.
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: TSV
+schema: >-
+  proteinA str, proteinB str, avg_predicted_proximity float(4), ytrue
+generatedBy:
+  - avg predicted protein proximities (random_forest_output.py)
+usedBy:
+  - community detection community_detection.py
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/Examples/MuSIC_predicted_proximity.txt

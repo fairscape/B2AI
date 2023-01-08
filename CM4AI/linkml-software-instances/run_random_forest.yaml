@@ -1,0 +1,17 @@
+id: ARK:run_random_forest.1/8a8085f2-5708-4c0b-803c-aea0ca64f012.py
+name: run random forest
+type: evi:Software
+author: Qin, Y.
+dateModified: 2021-06-11
+version: 1.0
+description: >- # multi-line content
+  script written in python to run random forest
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: py
+usedByComputation:
+  - ARK:train_and_run_RF_models.1/9b6f34ff-7eb8-4278-981f-ec2cd79f8aac
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/run_random_forest.py

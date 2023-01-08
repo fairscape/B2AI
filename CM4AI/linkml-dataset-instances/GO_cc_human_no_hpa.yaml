@@ -1,0 +1,23 @@
+id: ARK:GO_cc_human_no_hpa.1/89a44a1c-687e-4ed6-9c15-bb8f86aa6e1b.txt
+name: Calibration file
+type: schema:Dataset
+author: Qin et al.
+date_published: 2021-04-25
+version: 1.0
+description: >- # multi-line content
+  For each GO cellular compartment, a list of the gene symbols for human
+  proteins in that compartment. Omit HPA.
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: TSV
+schema: >-
+  GO_ID str, Num_proteins int, Proteins comma separated array of str
+derivedFrom:
+  - GO download Sept 25, 2018 [see http://release.geneontology.org/2018-11-15/index.html]
+usedBy:
+  - compute standard proximities calibrate_pairwise_distance.py
+  - create training & test sets  random_forest_samples.py
+contentUrl: https://raw.githubusercontent.com/idekerlab/MuSIC/master/data/GO_CC_human_no_hpa.txt

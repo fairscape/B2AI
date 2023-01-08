@@ -1,0 +1,32 @@
+id: ARK:calibration.1/38eab5de-810d-4893-ae6e-0fa17c1d1f0d.txt
+name: Calibration file
+type: schema:Dataset
+author: Qin et al.
+date_published: 2021-04-25
+version: 1.0
+description: >- # multi-line content
+  Calibration file created by the author, relating benchmark cellular
+  compartment diameters in nm to computed number of distinct protein
+  subunits in the compartment, according to GO. The benchmark compartments
+  in this figure https://idekerlab.ucsd.edu/music/ are: cell, nucleolus,
+  synapse, lysosome, centrosome, centriole, nuclear pore complex, large
+  ribosomal subunit, proteasome,  dynein complex. Sizes are stated but not
+  referenced. The file is used by calibrate_pairwise_distance.py to compute
+  “standard protein proximities” of any two proteins given the number of
+  distinct proteins in the smallest fewest distinct proteins cellular
+  compartment shown in GO.
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: TSV
+schema: >-
+  C, D;  where
+  C is a the number of distinct proteins in the compartment per GO
+  D is compartment size in nm
+derivedFrom:
+  - Human annotation based on literature search.
+usedBy:
+  - compute standard proximities calibrate_pairwise_distance.py
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/data/calibration.txt

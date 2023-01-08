@@ -1,0 +1,17 @@
+id: ARK:random_forest_samples.1/c9ae8d7c-7a2f-4eb9-b84b-c40767b8a820.py
+name: random forest samples
+type: evi:Software
+author: Qin, Y.
+dateModified: 2021-04-26
+version: 1.0
+description: >- # multi-line content
+  script written in python to generate random forest samples
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: py
+usedByComputation:
+  - ARK:create_labeled_training_test_sets.1/7b286764-3873-4928-9a1b-ab73187e7c77
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/random_forest_samples.py

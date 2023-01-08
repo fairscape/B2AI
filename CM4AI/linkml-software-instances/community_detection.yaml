@@ -1,0 +1,17 @@
+id: ARK:community_detection.1/ce71a1af-8c8b-487e-a94b-2decbcbc4c40.py
+name: community detection
+type: evi:Software
+author: Qin, Y.
+dateModified: 2021-06-20
+version: 1.0
+description: >- # multi-line content
+  script written in python to perform community detection
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: py
+usedByComputation:
+  - ARK:multi_resolution_community_detection.1/6343b6c3-4653-4b69-af6a-4f588721e371
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/community_detection.py

@@ -1,0 +1,18 @@
+id: ARK:create_labeled_training_test_sets.1/7b286764-3873-4928-9a1b-ab73187e7c77
+name: create labeled training & test sets
+type: evi:Computation
+runBy: Qin, Y.
+dateCreated: 2021-05-23
+description: >- # multi-line content
+  Create labeled random forest regressor training and test sets.
+usedSoftware:
+  - random_forest_samples.py (https://github.com/idekerlab/MuSIC/blob/master/random_forest_samples.py)
+usedDataset:
+  - List of MuSIC proteins (https://github.com/idekerlab/MuSIC/blob/master/Examples/MuSIC_proteins.txt)
+  - GO proteins X compartment (https://raw.githubusercontent.com/idekerlab/MuSIC/master/data/GO_CC_human_no_hpa.txt)
+  - GO annotated proteins (https://github.com/idekerlab/MuSIC/blob/master/data/GO_annotated_proteins.txt)
+  - image embeddings (https://github.com/idekerlab/MuSIC/blob/master/Examples/IF_image_embedding.csv )
+  - AMPS embeddings (https://github.com/idekerlab/MuSIC/blob/master/Examples/toy/toy_APMS_embedding.csv )
+generated:
+  - IF & AMPS training sets
+  - IF & APMS test sets

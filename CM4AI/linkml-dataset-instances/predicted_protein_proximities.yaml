@@ -1,0 +1,21 @@
+id: ARK:predicted_protein_proximities.1/eb1d18ba-63f1-45f4-a930-238181bca936.pkl
+name: model-predicted protein proximities
+type: schema:Dataset
+author: Qin et al.
+date_published: 2021-06-10
+version: 1.0
+description: >- # multi-line content
+  Dataset of ten .pkl files with RF-predicted protein-protein proximities.
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: PKL
+schema: >-
+  TBD
+generatedBy:
+  - train & run RF models run_random_forest.py
+usedBy:
+  - avg predicted protein proximities random_forest_output.py
+contentUrl: TBD

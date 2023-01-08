@@ -1,0 +1,25 @@
+id: ARK:IF_image_embedding.1/97bf87ce-e4bd-4452-aabb-c980e48a6303.csv
+name: Image embeddings
+type: schema:Dataset
+author: Lundberg lab (https://cellprofiling.org/people_members.html)
+date_published: 2021-04-23
+version: 1.0
+description: >- # multi-line content
+  Immunoflorescence (IF) image embeddings for each protein in the study, as
+  computed by Densenet prediction. IF embeddings are paired per protein, e.g.
+    IF_1,HLA-DPA1,0.022881096228957176,-0.060293108224868774, ... and
+    IF_2,HLA-DPA1,0.022881096228957176,-0.11374042928218842, ... etc.,
+  while APMS embeddings are for a single protein.
+associated_publication: >-
+  Qin, Y. et al. A multi-scale map of cell structure fusing protein images
+  and interactions. Nature 600, 536–542 2021
+additional_documentation:
+  - https://idekerlab.ucsd.edu/music/
+format: CSV
+schema: >-
+  IF_ID str, "IF_1, IF_2, ...", protein, embedding array of float X 1024
+generatedBy:
+  - Densenet predict (predict_d121.py)
+usedBy:
+  - create training & test sets random_forest_samples.py
+contentUrl: https://github.com/idekerlab/MuSIC/blob/master/Examples/IF_image_embedding.csv
